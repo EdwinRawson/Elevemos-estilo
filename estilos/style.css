@@ -1,0 +1,216 @@
+
+
+.nav{
+    position: fixed;
+    font-family: 'Iceberg', sans-serif;
+    color: black;
+    background: rgb(255, 118, 141);
+ padding: 1rem;
+    height: auto;
+    width: 97%;
+    text-align: right;
+    border: 1px solid black;
+
+}
+.let{
+    position: sticky;
+    width: auto;
+    height: auto;
+    float: left;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: white;
+    padding-top: 1rem;
+}
+.logolet1{
+    float: left;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+color: red;
+}
+.logolet2{
+    float: right;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+
+}
+
+body{
+    
+background-color: pink;
+background-image: url('../imagenes/helado-fresa-vainilla-derretido-chispitas-sobre-fondo-oblea_307211-125\ \(1\).jpg');
+font-family: 'Iceberg', sans-serif;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.butnav{
+    font-family: 'Iceberg', sans-serif;
+    font-size: 20px;
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+background-color: rgba(255, 234, 142, 0.932);
+transition: all;
+transition-duration: 500ms;
+}
+.butnav:hover{
+    cursor: pointer;
+    text-decoration:underline;
+    color: rgb(255, 255, 255);
+    background-color: rgba(199, 8, 8, 0.589);
+    box-shadow:  20px 10px 50px 8px black;
+}
+
+.buttonapp{
+width: 200px;
+height: 200px;
+    border-radius: 100%;
+    transition: all;
+    transition-duration: 500ms;
+    scale: 1;
+    float: right;    
+    position: fixed;
+  
+    right: 0;
+    bottom: 0;
+}
+
+main{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding:6px;
+    text-align: center;
+margin-top: 10rem;
+}
+
+.buttonapp:hover{
+    cursor: pointer;
+    box-shadow:  20px 10px 50px 8px black;
+    scale: 0.5;
+    border-radius: 100%;
+    
+}
+
+.inicio{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding:6px;
+    text-align: center;
+}
+
+.ban{
+    width: 100%;
+    height: 250px;
+    box-shadow:  20px 10px 50px 8px black ;
+    object-fit: cover;
+    border-radius: 5%;
+ 
+}
+
+
+
+.first_article{
+    font-size: 30px;
+    float: left;
+    width: 26%;
+    height: auto;
+    display: inline-grid;
+    text-align: center;
+    margin: 21px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
+.imagen1{
+    width: 100%;
+ 
+}
+.imagen1 img{
+    height: 250px;
+
+    width: 250px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.second_article{
+    font-size: 30px;
+    float: left;
+    width: 26%;
+    height: auto;
+    display: inline-grid;
+    text-align: center;
+    margin: 21px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.imagen2{
+    width: 100%;
+ 
+}.imagen2 img{
+    height: 250px;
+
+    width: 250px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.thirth_article{
+    font-size: 30px;
+     width: 26%;
+     height: auto;
+    display: inline-grid;
+    text-align: center;
+    margin: 21px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.imagen3{
+    width: 100%;
+}
+.imagen3 img{
+    height: 250px;
+width: 250px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.email {
+
+    font-size: 20px;
+    float: left;
+    width: 200px;
+    height: 100px;
+
+}
+.phone {
+
+    font-size: 20px;
+float: right;
+    width: 200px;
+    height: 100px;
+
+}
+    footer{
+  color: black;
+  background-color: rgb(255, 118, 141);;    
+        height: 80px;
+        margin-top: 30%;
+        text-align: center;
+        border: 1px solid black;
+        font-size: 40px;
+        padding: 20px;
+       
+          
+        
+
+    }
+    
